@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="130074" started-at="2022-05-25T11:15:04Z" finished-at="2022-05-25T11:17:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="130074" started-at="2022-05-25T11:15:04Z" finished-at="2022-05-25T11:17:14Z">
+      <class name="RESTAssured.RESTAssured.Customer">
+        <test-method status="PASS" signature="getProduct(java.lang.String, java.lang.String)[pri:0, instance:RESTAssured.RESTAssured.Customer@5a01ccaa]" name="getProduct" duration-ms="45827" started-at="2022-05-25T16:45:04Z" data-provider="DataForPost" finished-at="2022-05-25T16:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProduct -->
+        <test-method status="PASS" signature="getProduct(java.lang.String, java.lang.String)[pri:0, instance:RESTAssured.RESTAssured.Customer@5a01ccaa]" name="getProduct" duration-ms="42098" started-at="2022-05-25T16:45:50Z" data-provider="DataForPost" finished-at="2022-05-25T16:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thomas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProduct -->
+        <test-method status="PASS" signature="getProduct(java.lang.String, java.lang.String)[pri:0, instance:RESTAssured.RESTAssured.Customer@5a01ccaa]" name="getProduct" duration-ms="42121" started-at="2022-05-25T16:46:32Z" data-provider="DataForPost" finished-at="2022-05-25T16:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProduct -->
+      </class> <!-- RESTAssured.RESTAssured.Customer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
